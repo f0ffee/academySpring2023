@@ -12,6 +12,8 @@ Oltre ai commit e alle pull request previsti dal corso, siete liberi di fare qua
 
 Inserite il vostro nome qui sotto:
 
+Alessio Santantonio
+
 Carlo Domenico Baldi
 
 Hamza Byaoui
