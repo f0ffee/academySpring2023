@@ -5,6 +5,7 @@ Benvenuti nel repository della nostra academy! Potrete utilizzarlo come sandbox 
 Oltre ai commit e alle pull request previsti dal corso, siete liberi di fare qualsiasi contributo che pensate sia utile raccogliere qui, per esempio:
 
 * Un cheat sheet con i comandi di git
+https://training.github.com/downloads/github-git-cheat-sheet/
 * Una piccola documentazione sugli oggetti di AL
 * Eccetera
 
