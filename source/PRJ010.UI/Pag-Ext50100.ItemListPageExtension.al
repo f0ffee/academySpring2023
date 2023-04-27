@@ -7,7 +7,6 @@ pageextension 50100 "Item List Page Extension" extends "Item List"
             field("Reverse Description"; Rec."Reverse Description")
             {
                 ApplicationArea = all;
-
             }
         }
     }
@@ -17,20 +16,33 @@ pageextension 50100 "Item List Page Extension" extends "Item List"
         {
             action(ShowItems)
             {
-
                 ApplicationArea = All;
                 Caption = 'Reverse Description';
                 Image = Change;
                 ToolTip = 'Reverse the description item';
                 trigger OnAction()
+                var
+                    entries: Record Item;
+                    desc: Text[100];
+                    tmp: List of [Text];
+                    word: Text;
                 begin
-                    Message('ok');
+                    if entries.Findset() then begin
+                        repeat
+                            entries."Reverse Description" := ' ';
+                            entries.Modify();
+                            tmp := entries.Description.Split(' ');
+                            tmp.Reverse();
+                            foreach word in tmp do begin
+                                entries."Reverse Description" := word + ' ' + entries."Reverse Description";
+                            end;
+                            entries.Modify();
+                        until entries.Next() = 0;
+                    end
+                    else
+                        Error('entries.Get andata male');
                 end;
             }
         }
     }
-
-
-
-
 }
