@@ -11,7 +11,7 @@ Oltre ai commit e alle pull request previsti dal corso, siete liberi di fare qua
 ## Elenco partecipanti
 
 Inserite il vostro nome qui sotto:
-
+Ali Waseem
 
 
 ## Reverse Sentences
