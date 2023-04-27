@@ -14,6 +14,10 @@ Inserite il vostro nome qui sotto:
 
 Sebastiano Costa
 
+Alessia Centonze
+ 
+Andrea
+
 ## Reverse Sentences
 
 In questo repository, raccoglieremo le vostre soluzioni in AL all'esercizio seguente.
